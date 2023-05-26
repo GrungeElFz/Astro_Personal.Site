@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
@@ -11,42 +11,52 @@ const last_posts = posts.slice(0, 3);
 ---
 
 <BaseLayout>
-
-    <div class="pb-12 mt-5">
-      <div class="text-xl py-1">GM ✨</div>
-      <div class="text-5xl font-bold">My name is Gee</div>
-      <div class="text-3xl py-3 font-bold">Front End Web Developer</div>
-      <div class="py-2">
-        <text class="text-lg">
-          My proudest achievement is to be able to maximize and utilize an era of open information accessibility.
-          </text>
-      </div>
-      <div class="mt-8">
-        <a class="btn" href="https://www.linkedin.com/in/sahatsawat-kerdsawad" target="_blank">Let's connect!</a>
-        <a href="https://github.com/GrungeElFz" target="_blank" class="btn btn-outline ml-5">Github</a>
-      </div>
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">GM ✨</div>
+    <div class="text-5xl font-bold">My name is Gee</div>
+    <div class="text-3xl py-3 font-bold">Front End Web Developer</div>
+    <div class="py-2">
+      <text class="text-lg">
+        My proudest achievement is to be able to maximize and utilize an era of
+        open information accessibility.
+      </text>
     </div>
-
-    <div>
-      <div class="text-3xl w-full font-bold mb-2">My Lastest Projects {"</>"}</div>
+    <div class="mt-8">
+      <a
+        class="btn"
+        href="https://www.linkedin.com/in/sahatsawat-kerdsawad"
+        target="_blank">Let's connect!</a
+      >
+      <a
+        href="https://github.com/GrungeElFz"
+        target="_blank"
+        class="btn btn-outline ml-5">Github</a
+      >
     </div>
+  </div>
 
-    <div class="divider my-0"></div>
-    <HorizontalCard
-    title="Personal Site • Astro" 
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">
+      My Lastest Projects {"</>"}
+    </div>
+  </div>
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Personal Site • Astro"
     img="/Banner-Gee.Personal.Site.png"
     desc="Astro • TypeScript • Tailwind • DaisyUI • Markdown • HTML"
     url="https://github.com/GrungeElFz/Astro_Personal.Site"
   />
-    <HorizontalCard
-      title="Spotify Clone • SvelteKit"
-      img="/Banner-SvelteKit_Spotify.Clone.png"
-      desc="SvelteKit • TypeSctipt • JavaScript • SCSS • HTML • Vite • Spotify Web API"
-      url="https://sveltekit-spotify-clone-livid.vercel.app"
-      badge="NEW"
-    />
-    <div class="divider my-0"></div>
-    <HorizontalCard
+  <HorizontalCard
+    title="Spotify Clone • SvelteKit"
+    img="/Banner-SvelteKit_Spotify.Clone.png"
+    desc="SvelteKit • TypeSctipt • JavaScript • SCSS • HTML • Vite • Spotify Web API"
+    url="https://sveltekit-spotify-clone-livid.vercel.app"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
     title="Landing Page • 0x01000111"
     img="/Banner-01000111.jpeg"
     desc="0x01000111 - Techno Producer • Disc Jockey"
@@ -54,23 +64,13 @@ const last_posts = posts.slice(0, 3);
     badge="Under Development"
   />
 
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Linkedin Feed</div>
+  </div>
 
-    <div>
-      <div class="text-3xl w-full font-bold mb-5 mt-10">Latest posts</div>
-    </div>
-
-    {
-      last_posts.map((post) => (
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + post.slug}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0"></div>
-      ))
-    }
-
+  <div class="embedded-post">
+    <iframe
+      src="https:www.linkedin.com/embed/feed/update/urn:li:share:7063230638748831744"
+      title="LinkedIn Embedded Post"></iframe>
+  </div>
 </BaseLayout>
