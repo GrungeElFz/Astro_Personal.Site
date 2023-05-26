@@ -15,5 +15,10 @@ export default defineConfig({
       cacheDir: "./.cache/image",
       logLevel: 'debug',
     }
-  )]
+  )],
+  stylesheets: {
+    scssOptions: {
+      includePaths: ['./node_modules']
+    }
+  }
 });
