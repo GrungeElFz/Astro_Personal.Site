@@ -29,8 +29,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     allowfullscreen=""
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
     loading="lazy"></iframe>
-    
-    <iframe
+
+  <iframe
     class="track"
     style="border-radius:12px"
     src="https://open.spotify.com/embed/track/5Wh9fhdvsDwJsQWuJkltXb?utm_source=generator&theme=0"
@@ -56,10 +56,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 <style lang="scss">
   @use "@unsass/breakpoint";
 
-  #track-1 {
-    margin-bottom: 2%;
-  }
-  #track-2 {
+  .track {
     margin-bottom: 2%;
   }
   .wrapper-recently-played {
