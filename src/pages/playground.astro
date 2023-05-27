@@ -8,9 +8,37 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </div>
   <div class="divider my-0"></div>
 
+  <div class="text-2xl py-3 font-bold">Weekly Favorite Tracks ✨</div>
+
   <iframe
-    src="https://spotify-recently-played-readme.vercel.app/api?user=22dcwglm3hf3ocwavusfjj6fi&width=850"
-    width="850"
-    height="400"
-    title="Recently Played"></iframe>
+    id="track-1"
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/1OFKbYgqjhZABC01KAMJ0n?utm_source=generator"
+    width="100%"
+    height="352"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>
+
+  <iframe
+    id="track-2"
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/72BLz6InabloEkFf7uI7kU?utm_source=generator&theme=0"
+    width="100%"
+    height="152"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>
+
+  <div class="divider my-0"></div>
+
+  <div class="wrapper-recently-played">
+    <iframe
+      id="recently-played"
+      style="border-radius:12px"
+      src="https://spotify-recently-played-readme.vercel.app/api?user=22dcwglm3hf3ocwavusfjj6fi&width=850"
+      width="100%"
+      height="100%"
+      title="Recently Played"></iframe>
+  </div>
 </BaseLayout>
