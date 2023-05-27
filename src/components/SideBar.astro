@@ -30,7 +30,7 @@ import { Image } from "@astrojs/image/components";
       <!-- Sidebar content here -->
       <li><a id="home" href="/">Home</a></li>
       <li><a id="projects" href="/projects">Projects</a></li>
-      <li><a id="services" href="/services">Services</a></li>
+      <li><a id="playground" href="/playground">Playground</a></li>
       <li><a id="store" href="/store">Store</a></li>
       <li><a id="blog" href="/blog/">Blog</a></li>
       <li><a id="cv" href="/cv">CV</a></li>
@@ -107,7 +107,7 @@ import { Image } from "@astrojs/image/components";
 <script>
   const homeLink = document.getElementById("home");
   const projectsLink = document.getElementById("projects");
-  const servicesLink = document.getElementById("services");
+  const playgroundLink = document.getElementById("playground");
   const storeLink = document.getElementById("store");
   const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
@@ -116,7 +116,7 @@ import { Image } from "@astrojs/image/components";
 
   const url = window.location.href;
 
-  const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink];
+  const pages = [projectsLink, playgroundLink, storeLink, blogLink, cvLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
