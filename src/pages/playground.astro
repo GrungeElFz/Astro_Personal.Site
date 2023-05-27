@@ -42,3 +42,44 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       title="Recently Played"></iframe>
   </div>
 </BaseLayout>
+
+<style lang="scss">
+  @use "@unsass/breakpoint";
+
+  #track-1 {
+    margin-bottom: 2%;
+  }
+  #track-2 {
+    margin-bottom: 2%;
+  }
+  .wrapper-recently-played {
+    position: relative;
+    margin-top: 2%;
+    @include breakpoint.up("xl") {
+      width: 53.5em;
+      height: 21em;
+      margin-bottom: 15%;
+    }
+    @include breakpoint.down("xl") {
+      width: 41em;
+      height: 16.1em;
+      margin-bottom: 34%;
+    }
+    @include breakpoint.down("lg") {
+      width: 40em;
+      height: 15.7em;
+      margin-bottom: 0;
+    }
+    @include breakpoint.down("lg") {
+      width: 45em;
+      height: 17.7rem;
+      margin-bottom: 0;
+      border: 2px solid red;
+    }
+    @include breakpoint.down("md") {
+      width: 32em;
+      height: 12.65rem;
+      margin-bottom: 40%;
+    }
+  }
+</style>
