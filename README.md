@@ -1,12 +1,12 @@
-# Astro Modern Personal Website
+# Gee's Personal Website ✨
 
-![Astro Modern Personal Website](public/social_img.png)
+![Gee's Personal Website](public/social_img.png)
 
-Modern Personal Website Template with Project Section, CV Section, Paginated Blog, RSS Feed, SEO Friendly, Visual themes and Responsive Desing for Astro framework.
+Astro Modern personal website template with Project Section, CV Section, SEO Friendly, Visual themes and Responsive Desing. 
 
 ## Demo
 
-View a live demo of the [Astro Modern Personal Website](https://astro-modern-personal-website.netlify.app/)
+View a live demo of the [Gee's Personal Website](https://astro-personal-site-two.vercel.app/)
 
 ## Installation
 
@@ -25,48 +25,48 @@ npm run dev
 ## Tech Stack
 
 - [Astro](https://astro.build)
-- [tailwindcss](https://tailwindcss.com/)
+- [Scss](https://sass-lang.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
+- [Vite](https://vitejs.dev/guide/)
 
 ## Project Strucutre
 
-```php
+```TS
+├── public/
+│   ├── Banner-01000111.jpeg
+│   ├── Banner-Gee.Personal.Site.png
+│   ├── Banner-SvelteKit_Spotify.Clone.png
+│   ├── Cert-UNIC.BLOC529.png
+│   ├── favicon.svg
+│   ├── itemPreview.png
+│   ├── post_img.webp
+│   └── social-image.png
+│   └── profile.jpg
+│   └── robots.txt
+│   └── social_img.png
 ├── src/
 │   ├── components/
-│   │   ├── cs/
-│   │   │   ├── TimeLine
+│   │   ├── cv/
+│   │   │   ├── TimeLine.astro
 │   │   ├── BaseHead.astro
 │   │   ├── Card.astro
 │   │   ├── Footer.astro
 │   │   ├── Header.astro
-│   │   └── HorizontalCard.jsx
-│   │   └── SideBar.jsx
-│   ├── content/
-│   │   ├── blog/
-│   │   │   ├── post1.md
-│   │   │   ├── post2.md
-│   │   │   └── post3.md
-│   │   ├── store/
-│   │   │   ├── item1.md
-│   │   │   ├── item2.md
+│   │   ├── HorizontalCard.astro
+│   │   └── SideBar.astro
 │   ├── layouts/
 │   │   └── BaseLayout.astro
-│   │   └── PostLayout.astro
 │   └── pages/
-│   │   ├── blog/
-│   │   │   ├── [...page].astro
-│   │   │   ├── [slug].astro
+│   │   └── 404.astro
 │   │   └── cv.astro
 │   │   └── index.astro
+│   │   └── main.ts
+│   │   └── playground.astro
 │   │   └── projects.astro
 │   │   └── rss.xml.js
 │   └── styles/
-│       └── global.css
-├── public/
-│   ├── favicon.svg
-│   └── social-image.png
-│   └── sprofile.jpg
-│   └── social_img.webp
+│     └── global.css
 ├── astro.config.mjs
 ├── tailwind.config.cjs
 ├── package.json
@@ -75,11 +75,11 @@ npm run dev
 
 ### Components usage
 
-#### Layout Components
+#### • Layout Components
 
 The `BaseHead`, `Footer`, `Header` and `SideBar` components are already included in the layout sistem. To change the website content you can edit the content of this components.
 
-##### SideBar
+#### • SideBar
 
 In the Sidebar you can change the links to all your website pages.
 
@@ -89,7 +89,7 @@ The used social-icons are SVG form [BoxIcons](https://boxicons.com/) pack.
 
 **Note**: In order to change the sidebar menu's active item style, look for the `activeClass` constant and change its value to your desired style (e.g. `active` for the primary colour).
 
-#### TimeLine
+#### • TimeLine
 
 The timeline components are used to conform the CV.
 
@@ -104,7 +104,7 @@ The timeline components are used to conform the CV.
 </div>
 ```
 
-#### Card & HorizontalCard
+#### • Card & HorizontalCard
 
 ```html
 <HorizontalCard title="Card Title" img="imge_url" desc="Description" url="Link
@@ -112,98 +112,9 @@ URL" target="Optional link target (_blank default)" badge="Optional badge"
 tags={['Array','of','tags']} />
 ```
 
-#### HorizontalCard Shop Item
-
-This compoenet is already included in the Store layout of the template. In case you want to use it in other place this are the props.
-
-```html
-<HorizontalShopItem
-  title="Item Title"
-  img="imge_url"
-  desc="Item description"
-  pricing="current_price"
-  oldPricing="old_price"
-  checkoutUrl="external store checkout url"
-  badge="Optional badge"
-  url="item details url"
-  custom_link="Custom link url"
-  custom_link_label="Cutom link btn label"
-  target="Optional link target (_self default)"
-/>
-```
-
-### Layouts
-
-Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
-
-### Content
-
-You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
-
-#### config.ts
-
-Where you need to define your content collections, we define our content schemas too.
-
-#### Blog
-
-Add your `md` blog post in the `/content/blog/` folder.
-
-##### Post format
-
-Add code with this format in the top of each post file.
-
-```
----
-title: "Post Title"
-description: "Description"
-pubDate: "Post date format(Sep 10 2022)"
-heroImage: "Post Hero Image URL"
----
-```
-
 ### Pages
 
-#### Blog
-
-Blog uses Astro's content collection to query post's `md`.
-
-##### [page].astro
-
-The `[page].astro` is the route to work with the paginated post list. You can change there the number of items listed for each page and the pagination button labels.
-
-##### [slug].astro
-
-The `[slug].astro` is the base route for every blog post, you can customize the page layout or behaviour, by default uses `content/blog` for content collection and `PostLayout` as layout.
-
-#### Shop
-
-Add your `md` item in the `/pages/shop/` folder.
-
-##### [page].astro
-
-The `[page].astro` is the route to work with the paginated item list. You can change there the number of items listed for each page and the pagination button labels. The shop will render all `.md` files you incle inside this folder.
-
-##### Item format
-
-Add code with this format in the top of each item file.
-
-```js
----
-title: "Demo Item 1"
-description: "Item description"
-heroImage: "Item img url"
-details: true // show or hide details btn
-custom_link_label: "Custom btn link label"
-custom_link: "Custom btn link"
-pubDate: "Sep 15 2022"
-pricing: "$15"
-oldPricing: "$25.5"
-badge: "Featured"
-checkoutUrl: "https://checkouturl.com/"
----
-```
-
-#### Static pages
+#### • Static pages
 
 The other pages inlcuded in the template are static pages. The `index` page belong to the root page. You can add your pages directly in the `/pages` folder and then add a link to that pages in the `sidebar` component.
 
@@ -219,7 +130,7 @@ You can chose among 30 themes available or create your custom theme. See themes 
 
 The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
 
-## Deploy
+## Deployment
 
 You can deploy your site on your favorite static hosting service such as Vercel, Netlify, GitHub Pages, etc.
 
