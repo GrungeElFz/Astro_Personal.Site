@@ -6,7 +6,7 @@ Astro Modern personal website template with Project Section, CV Section, SEO Fri
 
 ## Demo
 
-View a live demo of the [Gee's Personal Website](https://astro-personal-site-two.vercel.app/)
+View a live demo of the [Gee's Personal Website](https://gee-astro-personal.vercel.app/)
 
 ## Installation
 
@@ -37,7 +37,6 @@ npm run dev
 │   ├── Banner-01000111.jpeg
 │   ├── Banner-Gee.Personal.Site.png
 │   ├── Banner-SvelteKit_Spotify.Clone.png
-│   ├── Cert-UNIC.BLOC529.png
 │   ├── favicon.svg
 │   ├── itemPreview.png
 │   ├── post_img.webp
@@ -64,7 +63,6 @@ npm run dev
 │   │   └── main.ts
 │   │   └── playground.astro
 │   │   └── projects.astro
-│   │   └── rss.xml.js
 │   └── styles/
 │     └── global.css
 ├── astro.config.mjs
