@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://astro-personal-site-two.vercel.app/
+Sitemap: https://gee-astro-personal.vercel.app/
