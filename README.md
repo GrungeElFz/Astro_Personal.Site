@@ -40,7 +40,6 @@ npm run dev
 │   ├── favicon.svg
 │   ├── itemPreview.png
 │   ├── post_img.webp
-│   └── social-image.png
 │   └── profile.jpg
 │   └── robots.txt
 │   └── social_img.png
