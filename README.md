@@ -30,7 +30,7 @@ npm run dev
 - [DaisyUI](https://daisyui.com/)
 - [Vite](https://vitejs.dev/guide/)
 
-## Project Strucutre
+## Project Structure
 
 ```TS
 ├── public/
