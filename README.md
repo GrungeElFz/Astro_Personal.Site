@@ -34,6 +34,7 @@ npm run dev
 
 ```TS
 ├── public/
+│   ├── Banner-01000111_Landing.Page.png
 │   ├── Banner-01000111.jpeg
 │   ├── Banner-Gee.Personal.Site.png
 │   ├── Banner-SvelteKit_Spotify.Clone.png
@@ -42,7 +43,6 @@ npm run dev
 │   ├── post_img.webp
 │   └── profile.jpg
 │   └── robots.txt
-│   └── social_img.png
 ├── src/
 │   ├── components/
 │   │   ├── cv/
