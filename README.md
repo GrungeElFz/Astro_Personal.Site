@@ -1,6 +1,6 @@
 # Gee's Personal Website ✨
 
-![Gee's Personal Website](public/social_img.png)
+![Gee's Personal Website](public/Banner-Gee.Personal.Site.png)
 
 Astro Modern personal website template with Project Section, CV Section, SEO Friendly, Visual themes and Responsive Desing. 
 
