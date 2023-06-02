@@ -17,9 +17,10 @@
     "@astrojs/rss": "^1.0.1",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^3.0.0",
+    "@astrojs/vercel": "^3.4.1",
     "@unsass/breakpoint": "^2.3.0",
     "@vercel/analytics": "^1.0.1",
-    "astro": "^2.2.1",
+    "astro": "^2.5.7",
     "daisyui": "^2.27.0",
     "dayjs": "^1.11.7",
     "sharp": "^0.31.3"
