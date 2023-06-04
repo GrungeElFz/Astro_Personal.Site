@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SideBar from "../components/SideBar.astro";
+import ThemeChanger from "../components/ThemeChanger.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
@@ -28,9 +29,7 @@ const {
           <main class="p-6 pt-10 max-w-[900px]">
             <slot />
           </main>
-          <div class="dropdown dropdown-end hidden lg:block">
-            <label tabindex="0" class="btn m-1">Theme (Desktop)</label>
-          </div>
+          <ThemeChanger />
         </div>
         <Footer />
       </div>
