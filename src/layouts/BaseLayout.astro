@@ -6,7 +6,12 @@ import SideBar from "../components/SideBar.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
-const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSidebar = true } = Astro.props;
+const {
+  image,
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION,
+  includeSidebar = true,
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -23,6 +28,9 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
           <main class="p-6 pt-10 max-w-[900px]">
             <slot />
           </main>
+          <div class="dropdown dropdown-end hidden lg:block">
+            <label tabindex="0" class="btn m-1">Theme (Desktop)</label>
+          </div>
         </div>
         <Footer />
       </div>
