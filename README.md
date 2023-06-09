@@ -46,7 +46,7 @@ npm run dev
 ├── src/
 │   ├── components/
 │   │   ├── cv/
-│   │   │   ├── TimeLine.astro
+│   │   │   └── TimeLine.astro
 │   │   ├── BaseHead.astro
 │   │   ├── Card.astro
 │   │   ├── Footer.astro
