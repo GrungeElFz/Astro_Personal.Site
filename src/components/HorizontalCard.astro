@@ -32,6 +32,9 @@ import { Image } from "@astrojs/image/components";
               tags.map((tag) => <div class="badge badge-outline">{tag}</div>)
           }
         </div>
+        <div class="grow w-full">
+          <slot />
+        </div>
       </div>
     </div>
   </a>
