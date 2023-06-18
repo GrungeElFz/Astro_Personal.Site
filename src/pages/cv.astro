@@ -143,126 +143,118 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certification</div>
+    <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <div class="experience__data bd-grid px-5">
-        <h3 class="font-semibold mb-1">
-          Cardano Blockchain Certified Associate (CBCA)
-        </h3>
-        <h6 class="font-normal mb-1">Cardano Foundation</h6>
-        <span class="font-light text-sm">Issued Jun 2023</span>
-        <p class="my-2 text-justify mb-5">
-          An in-depth course covering blockchain fundamentals, consensus
-          algorithms, cryptography, encryptions, hash functions, digital
-          signatures, and Cardano. Explore topics such as decentralized finance
-          (DeFi), smart contracts, Web 3.0, and more.
-        </p>
-        <a
-          href="https://education.cardano.org/certificate_v2/64821e3c9f1938efcf06fba3/user/648c7a5dd04d5168950d946d"
-          target="_blank"
-        >
-          <img
-            src="https://media.licdn.com/dms/image/D5622AQEKuIHrnESU9Q/feedshare-shrink_1280/0/1687102109071?e=1689811200&v=beta&t=nhhEMoWrNlaFzCHAMT8WK0AOZv76FbFQNsUYIqCCXLM"
-          />
-        </a>
-      </div>
-    </li>
-  </ul>
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Cardano Blockchain Certified Associate (CBCA)"
+      subtitle="Cardano Foundation"
+      date="Issued Jun 2023"
+    >
+      <p class="my-2 text-justify mb-5">
+        An in-depth course covering blockchain fundamentals, consensus
+        algorithms, cryptography, encryptions, hash functions, digital
+        signatures, and Cardano. Explore topics such as decentralized finance
+        (DeFi), smart contracts, Web 3.0, and more.
+      </p>
+      <a
+        href="https://education.cardano.org/certificate_v2/64821e3c9f1938efcf06fba3/user/648c7a5dd04d5168950d946d"
+        target="_blank"
+      >
+        <img
+          src="https://media.licdn.com/dms/image/D5622AQEKuIHrnESU9Q/feedshare-shrink_1280/0/1687102109071?e=1689811200&v=beta&t=nhhEMoWrNlaFzCHAMT8WK0AOZv76FbFQNsUYIqCCXLM"
+        />
+      </a>
+    </TimeLineElement>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <div class="experience__data bd-grid px-5">
-        <h3 class="font-semibold mb-1">BLOC529: Decentralized Finance</h3>
-        <h6 class="font-normal mb-1">University of Nicosia</h6>
-        <span class="font-light text-sm">Issued Sep 2022</span>
-        <p class="my-2 text-justify mb-5">
-          A remote class that provides the field of decentralized finance (DeFi)
-          and its main components, including decentralized exchanges (DEXs),
-          automated market making (AMM), liquidity mining, yield farming,
-          stable-coins, blockchain derivatives, DeFi protocol governance and
-          others.
-        </p>
-        <a
-          href="https://opensea.io/assets/ethereum/0x05283b957cd69383429113e9ba41c95bafde3ec1/37"
-          target="_blank"
-        >
-          <img
-            src="https://i.seadn.io/gae/yHYtZVMRzVj903-M1GLet2BJiklFeOTXL54kcSFn1a38pGGZ5G-BlHIMlmGO20kn3_lgBA-TgRzE7YuD7Rsp6FR-JCJ7m6UFEPHk5g?auto=format&dpr=1&w=3840"
-          />
-        </a>
-      </div>
-    </li>
-  </ul>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
-
-  <div class="mb-3">
-    <div class="text-xl w-full font-semibold">
-      Languages • Libraries • Frameworks • Bundlers
-    </div>
-  </div>
-
-  <div class="mb-6">
-    <ul class="list-disc md:columns-5 columns-2 mx-6">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>SCSS</li>
-      <li>TailwindCSS</li>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>React</li>
-      <li>Svelte</li>
-      <li>Astro</li>
-      <li>Markdown</li>
-      <li>Webpack</li>
-      <li>Vite</li>
-      <li>Node.JS</li>
-      <li>Express.JS</li>
-      <li>PostgreSQL</li>
-      <li>JSON</li>
-      <li>Bash</li>
-    </ul>
-  </div>
-
-  <div class="mb-3">
-    <div class="text-xl w-full font-semibold">
-      Emulators • Shell • Extensions
-    </div>
-  </div>
-
-  <div class="mb-6">
-    <ul class="list-disc md:columns-5 columns-2 mx-6">
-      <li>Git</li>
-      <li>Homebrew</li>
-      <li>Warp</li>
-      <li>ZSH Terminal</li>
-      <li>NPM</li>
-      <li>Starship</li>
-      <li>Rectangle</li>
-      <li>Maccy</li>
-    </ul>
-  </div>
-
-  <div class="mb-3">
-    <div class="text-xl w-full font-semibold">Additional</div>
-  </div>
-
-  <div>
-    <ul class="list-disc md:columns-5 columns-2 mx-6">
-      <li>Figma</li>
-      <li>Canva</li>
-      <li>Obsidian</li>
-      <li>Notion</li>
-      <li>Logic Pro X</li>
-      <li>Final Cut Pro X</li>
-      <li>Adobe Lightroom</li>
-      <li>DaVinci Resolve</li>
-      <li>Autodesk Sketchbook</li>
-    </ul>
+    <TimeLineElement
+      title="BLOC529: Decentralized Finance"
+      subtitle="University of Nicosia"
+      date="Issued Sep 2022"
+    >
+      <p class="my-2 text-justify mb-5">
+        A remote class that provides the field of decentralized finance (DeFi)
+        and its main components, including decentralized exchanges (DEXs),
+        automated market making (AMM), liquidity mining, yield farming,
+        stable-coins, blockchain derivatives, DeFi protocol governance, and
+        others.
+      </p>
+      <a
+        href="https://opensea.io/assets/ethereum/0x05283b957cd69383429113e9ba41c95bafde3ec1/37"
+        target="_blank"
+      >
+        <img
+          src="https://i.seadn.io/gae/yHYtZVMRzVj903-M1GLet2BJiklFeOTXL54kcSFn1a38pGGZ5G-BlHIMlmGO20kn3_lgBA-TgRzE7YuD7Rsp6FR-JCJ7m6UFEPHk5g?auto=format&dpr=1&w=3840"
+        />
+      </a>
+    </TimeLineElement>
   </div>
 </BaseLayout>
+
+<div class="mb-5">
+  <div class="text-3xl w-full font-bold">Skills</div>
+</div>
+
+<div class="mb-3">
+  <div class="text-xl w-full font-semibold">
+    Languages • Libraries • Frameworks • Bundlers
+  </div>
+</div>
+
+<div class="mb-6">
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SCSS</li>
+    <li>TailwindCSS</li>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>React</li>
+    <li>Svelte</li>
+    <li>Astro</li>
+    <li>Markdown</li>
+    <li>Webpack</li>
+    <li>Vite</li>
+    <li>Node.JS</li>
+    <li>Express.JS</li>
+    <li>PostgreSQL</li>
+    <li>JSON</li>
+    <li>Bash</li>
+  </ul>
+</div>
+
+<div class="mb-3">
+  <div class="text-xl w-full font-semibold">Emulators • Shell • Extensions</div>
+</div>
+
+<div class="mb-6">
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Git</li>
+    <li>Homebrew</li>
+    <li>Warp</li>
+    <li>ZSH Terminal</li>
+    <li>NPM</li>
+    <li>Starship</li>
+    <li>Rectangle</li>
+    <li>Maccy</li>
+  </ul>
+</div>
+
+<div class="mb-3">
+  <div class="text-xl w-full font-semibold">Additional</div>
+</div>
+
+<div>
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Figma</li>
+    <li>Canva</li>
+    <li>Obsidian</li>
+    <li>Notion</li>
+    <li>Logic Pro X</li>
+    <li>Final Cut Pro X</li>
+    <li>Adobe Lightroom</li>
+    <li>DaVinci Resolve</li>
+    <li>Autodesk Sketchbook</li>
+  </ul>
+</div>
