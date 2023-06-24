@@ -105,6 +105,7 @@ import { Image } from "@astrojs/image/components";
 </div>
 <script>
   const homeLink = document.getElementById("home");
+  const aboutLink = document.getElementById("about");
   const projectsLink = document.getElementById("projects");
   const playgroundLink = document.getElementById("playground");
   const storeLink = document.getElementById("store");
@@ -115,7 +116,7 @@ import { Image } from "@astrojs/image/components";
 
   const url = window.location.href;
 
-  const pages = [projectsLink, playgroundLink, storeLink, blogLink, cvLink];
+  const pages = [aboutLink, projectsLink, playgroundLink, storeLink, blogLink, cvLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
