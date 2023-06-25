@@ -119,23 +119,27 @@ URL" target="Optional link target (_blank default)" badge="Optional badge"
 tags={['Array','of','tags']} />
 ```
 
+---
+
 ### Layouts
 
 Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
+
+---
 
 ### Content
 
 You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
 
-#### config.ts
+#### • config.ts
 
 Where you need to define your content collections, we define our content schemas too.
 
-#### Blog
+#### • Blog
 
 Add your `md` blog post in the `/content/blog/` folder.
 
-#### Post format
+#### • Post format
 
 Add code with this format in the top of each post file.
 
@@ -147,6 +151,8 @@ pubDate: "Post date format(Sep 10 2022)"
 heroImage: "Post Hero Image URL"
 ---
 ```
+
+---
 
 ### Pages
 
@@ -168,15 +174,21 @@ The `[page].astro` is the route to work with the paginated post list. You can ch
 
 The `[slug].astro` is the base route for every blog post, you can customize the page layout or behaviour, by default uses `content/blog` for content collection and `PostLayout` as layout.
 
+---
+
 ### Theming
 
 For change the template theme change the `data-theme` atribute of the `<html>` tag in `BaseLayout.astro` file.
 
 You can chose among 30 themes available or create your custom theme. See themes available [here](https://daisyui.com/docs/themes/).
 
+---
+
 ## Sitemap
 
 The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
+
+---
 
 ## Deployment
 
@@ -186,6 +198,8 @@ The configuration for the deployment varies depending on the platform where you 
 
 > **⚠️ CAUTION** </br>
 > The Blog pagination of this template is implemented using dynamic route parameters in its filename and for now this format is incompatible with SSR deploy configs, so please use the default static deploy options for your deployments.
+
+---
 
 ## Contributing
 
