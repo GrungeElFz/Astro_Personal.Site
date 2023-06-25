@@ -123,6 +123,31 @@ tags={['Array','of','tags']} />
 
 Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
 
+### Content
+
+You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
+
+#### config.ts
+
+Where you need to define your content collections, we define our content schemas too.
+
+#### Blog
+
+Add your `md` blog post in the `/content/blog/` folder.
+
+#### Post format
+
+Add code with this format in the top of each post file.
+
+```TS
+---
+title: "Post Title"
+description: "Description"
+pubDate: "Post date format(Sep 10 2022)"
+heroImage: "Post Hero Image URL"
+---
+```
+
 ### Pages
 
 #### • Static pages
