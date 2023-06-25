@@ -119,6 +119,10 @@ URL" target="Optional link target (_blank default)" badge="Optional badge"
 tags={['Array','of','tags']} />
 ```
 
+### Layouts
+
+Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
+
 ### Pages
 
 #### • Static pages
