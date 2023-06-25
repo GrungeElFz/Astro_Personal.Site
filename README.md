@@ -90,11 +90,10 @@ The `BaseHead`, `Footer`, `Header` and `SideBar` components are already included
 
 In the Sidebar you can change the links to all your website pages.
 
-You can change your avatar shape using [mask classes](https://daisyui.com/components/mask/).
+- You can change your avatar shape using [mask classes](https://daisyui.com/components/mask/).
+- The used social-icons are SVG form [BoxIcons](https://boxicons.com/) pack.
 
-The used social-icons are SVG form [BoxIcons](https://boxicons.com/) pack.
-
-**Note**: In order to change the sidebar menu's active item style, look for the `activeClass` constant and change its value to your desired style (e.g. `active` for the primary colour).
+> **Note**: In order to change the sidebar menu's active item style, look for the `activeClass` constant and change its value to your desired style (e.g. `active` for the primary colour).
 
 #### • TimeLine
 
@@ -129,7 +128,7 @@ Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
 
 ### Content
 
-You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
+You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/` folder, you will need add it at config.ts.
 
 #### • config.ts
 
@@ -160,7 +159,7 @@ heroImage: "Post Hero Image URL"
 
 The other pages inlcuded in the template are static pages. The `index` page belong to the root page. You can add your pages directly in the `/pages` folder and then add a link to that pages in the `sidebar` component.
 
-Feel free to modify the content included in the pages that the template contains or add the ones you need.
+> Feel free to modify the content included in the pages that the template contains or add the ones you need.
 
 #### • Blog
 
