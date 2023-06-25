@@ -7,6 +7,23 @@ heroImage: "/post_img.webp"
 
 Managing directories efficiently is crucial for productivity when working in a command-line environment. In this blog post, we will explore a handy ZSH command that simplifies the process of creating directories and navigating between them. By combining a few simple commands, we can streamline directory operations and save valuable time.
 
+<div class="mockup-code mb-5">
+  <pre data-prefix=">"><code>mkdir DIR_NAME</code></pre>
+  <pre data-prefix=">"><code>ls</code></pre>
+  <pre data-prefix="" class="grid text-info">
+    <code>DIR_1 DIR_2 DIR_3 DIR_NAME</code>
+  </pre>
+  <pre data-prefix=">"><code>cd DIR_NAME</code></pre> 
+</div>
+
+> - This is what I used to do
+
+<div class="mockup-code mb-5">
+  <pre data-prefix=">"><code>mkdir DIR_NAME && cd $_</code></pre> 
+</div>
+
+> - Simplified command line
+
 ## The Command
 
 Let's break down each component of the command `mkdir DIR_NAME && cd $_`
