@@ -2,7 +2,7 @@
 
 ![Gee's Personal Website](public/Banner-Gee.Personal.Site.png)
 
-Astro Modern personal website template with Project Section, CV Section, SEO Friendly, Visual themes and Responsive Design.
+A _minimal_ • _personal_ • _digital space_ to showcase my works with Projects, Playground, Blog, and CV ✨
 
 ## Demo
 
