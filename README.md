@@ -2,7 +2,7 @@
 
 ![Gee's Personal Website](public/Banner-Gee.Personal.Site.png)
 
-Astro Modern personal website template with Project Section, CV Section, SEO Friendly, Visual themes and Responsive Design. 
+Astro Modern personal website template with Project Section, CV Section, SEO Friendly, Visual themes and Responsive Design.
 
 ## Demo
 
@@ -38,6 +38,7 @@ npm run dev
 │   ├── Banner-01000111.jpeg
 │   ├── Banner-Gee.Personal.Site.png
 │   ├── Banner-SvelteKit_Spotify.Clone.png
+│   ├── Blog-Post1_Banner.png
 │   ├── favicon.svg
 │   ├── itemPreview.png
 │   ├── post_img.webp
@@ -53,14 +54,23 @@ npm run dev
 │   │   ├── Header.astro
 │   │   ├── HorizontalCard.astro
 │   │   └── SideBar.astro
+│   ├── content/
+│   │   ├── blog/
+│   │   │   └── post1.md
+│   │   └── config.ts
 │   ├── layouts/
 │   │   └── BaseLayout.astro
+│   │   └── PostLayout.astro
 │   └── pages/
-│   │   └── 404.astro
-│   │   └── cv.astro
-│   │   └── index.astro
-│   │   └── main.ts
-│   │   └── playground.astro
+│   │   ├── blog/
+│   │   │   └── [..page].astro
+│   │   │   └── [slug].astro
+│   │   ├── 404.astro
+│   │   ├── about.astro
+│   │   ├── cv.astro
+│   │   ├── index.astro
+│   │   ├── main.ts
+│   │   ├── playground.astro
 │   │   └── projects.astro
 │   └── styles/
 │     └── global.css
