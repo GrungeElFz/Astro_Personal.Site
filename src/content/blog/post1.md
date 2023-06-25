@@ -3,6 +3,7 @@ title: "One Command Line: Create and Open Directories with Ease"
 description: "Streamline Directory Creation and Navigation with a Single ZSH Command"
 pubDate: "June 24 2023"
 heroImage: "/post_img.webp"
+badge: "NEW"
 ---
 
 Managing directories efficiently is crucial for productivity when working in a command-line environment. In this blog post, we will explore a handy ZSH command that simplifies the process of creating directories and navigating between them. By combining a few simple commands, we can streamline directory operations and save valuable time.
