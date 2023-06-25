@@ -127,6 +127,18 @@ The other pages inlcuded in the template are static pages. The `index` page belo
 
 Feel free to modify the content included in the pages that the template contains or add the ones you need.
 
+#### • Blog
+
+Blog uses Astro's content collection to query post's `md`.
+
+##### [page].astro
+
+The `[page].astro` is the route to work with the paginated post list. You can change there the number of items listed for each page and the pagination button labels.
+
+##### [slug].astro
+
+The `[slug].astro` is the base route for every blog post, you can customize the page layout or behaviour, by default uses `content/blog` for content collection and `PostLayout` as layout.
+
 ### Theming
 
 For change the template theme change the `data-theme` atribute of the `<html>` tag in `BaseLayout.astro` file.
