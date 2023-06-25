@@ -2,7 +2,7 @@
 title: "One Command Line: Create and Open Directories with Ease"
 description: "Streamline Directory Creation and Navigation with a Single ZSH Command"
 pubDate: "June 24 2023"
-heroImage: "/post_img.webp"
+heroImage: "/Blog-Post1_Banner.png"
 badge: "NEW"
 ---
 
