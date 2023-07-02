@@ -1,6 +1,6 @@
 ---
 title: "React vs Svelte (Q3 2023)"
-description: "The ultimate guide to Svelte for React.JS Developers with 10 code examples for both JavaScript frameworks."
+description: "Essential Q3 2023 guide for React and Svelte with code examples."
 pubDate: "July 1 2023"
 heroImage: "/Blog-Post2_Banner.jpg"
 badge: "NEW"
