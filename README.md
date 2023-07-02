@@ -39,6 +39,8 @@ npm run dev
 │   ├── Banner-Gee.Personal.Site.png
 │   ├── Banner-SvelteKit_Spotify.Clone.png
 │   ├── Blog-Post1_Banner.png
+│   ├── Blog-Post2_1.png
+│   ├── Blog-Post2_Banner.png
 │   ├── favicon.svg
 │   ├── itemPreview.png
 │   ├── post_img.webp
@@ -56,7 +58,8 @@ npm run dev
 │   │   └── SideBar.astro
 │   ├── content/
 │   │   ├── blog/
-│   │   │   └── post1.md
+│   │   │   ├── post1.md
+│   │   │   └── post2.md
 │   │   └── config.ts
 │   ├── layouts/
 │   │   └── BaseLayout.astro
