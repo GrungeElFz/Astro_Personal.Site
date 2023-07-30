@@ -3,7 +3,6 @@ title: "React vs Svelte (Q3 2023)"
 description: "Essential Q3 2023 guide for React and Svelte with code examples."
 pubDate: "July 1 2023"
 heroImage: "/Blog-Post2_Banner.jpg"
-badge: "NEW"
 ---
 
 _" Any reasonable developer in today's world would learn React because it's the status quo and that's where the jobs are,
