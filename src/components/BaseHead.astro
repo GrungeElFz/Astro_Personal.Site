@@ -2,6 +2,7 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
+import { ViewTransitions } from 'astro:transitions';
 
 export interface Props {
 	title: string;
@@ -11,6 +12,8 @@ export interface Props {
 
 const { title, description, image = '/Banner-Gee.Personal.Site.png' } = Astro.props;
 ---
+
+<ViewTransitions />
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
