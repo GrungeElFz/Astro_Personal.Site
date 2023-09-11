@@ -23,7 +23,4 @@ export default defineConfig({
       includePaths: ["./node_modules"],
     },
   },
-  experimental: {
-    viewTransitions: true,
-  },
 });
