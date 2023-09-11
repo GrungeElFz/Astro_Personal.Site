@@ -20,7 +20,7 @@
     "@unsass/breakpoint": "^2.3.0",
     "@vercel/analytics": "^1.0.2",
     "astro": "^3.0.12",
-    "daisyui": "^2.27.0",
+    "daisyui": "^3.7.3",
     "dayjs": "^1.11.7",
     "sharp": "^0.31.3",
     "theme-change": "^2.5.0"
