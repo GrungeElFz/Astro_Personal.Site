@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^1.0.3",
-    "@astrojs/rss": "^1.0.1",
+    "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^3.0.0",
     "@astrojs/vercel": "^3.4.1",
