@@ -92,7 +92,7 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
 
 ---
 
-Get a firsthand look at Orion in action with Norman Chan and Meta's CTO, Andrew Bosworth.
+### Watch: Meta's Orion in Action & Zuckerberg's Vision
 
 <!-- Mobile Version -->
 <iframe
@@ -118,9 +118,9 @@ Get a firsthand look at Orion in action with Norman Chan and Meta's CTO, Andrew 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
----
+> Get a firsthand look at Orion in action with Norman Chan and Meta's CTO, Andrew Bosworth.
 
-Check out Cleo Abram's chat with Mark Zuckerberg as they dive into the world of Orion and its possibilities.
+---
 
 <!-- Mobile Version -->
 <iframe
@@ -145,3 +145,5 @@ Check out Cleo Abram's chat with Mark Zuckerberg as they dive into the world of 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
+
+> Cleo Abram's interview with Mark Zuckerberg as they dive into the world of Orion and its possibilities.
