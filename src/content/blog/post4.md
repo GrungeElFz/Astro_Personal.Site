@@ -56,10 +56,12 @@ The wristband currently recognizes a range of gestures:
 
 Eye movements act as the cursor, and pinching your fingers serves as a click.
 
-<Image
-  src="https://about.fb.com/wp-content/uploads/2024/09/01_Why-AR-Glasses_Carousel-01.gif?fit=640%2C557"
-  class="rounded-2xl shadow-2xl w-full"
-/>
+<div class="relative overflow-hidden">
+  <Image
+    src="https://about.fb.com/wp-content/uploads/2024/09/01_Why-AR-Glasses_Carousel-01.gif?fit=640%2C557"
+    class="w-full scale-125"
+  />
+</div>
 
 ---
 
@@ -69,10 +71,12 @@ With Meta AI seamlessly integrated into Orion, you'll have a smart assistant tha
 
 Imagine walking into your kitchen and asking for a creative recipe based on the ingredients you already have on hand. Orion will then overlay suggestions and instructions right onto your countertops, transforming cooking into an interactive experience.
 
-<Image
-  src="https://about.fb.com/wp-content/uploads/2024/09/04_recipes.gif?resize=960%2C836"
-  class="rounded-2xl shadow-2xl"  
-/>
+<div class="relative overflow-hidden">
+  <Image
+    src="https://about.fb.com/wp-content/uploads/2024/09/04_recipes.gif?resize=960%2C836"
+    class="w-full scale-125"  
+  />
+</div>
 
 Imagine conversing with someone in another language, and seeing their words instantly translated into subtitles layered directly onto their surroundings, allow you to focus on their expressions, their gestures, and the shared human experience.
 
