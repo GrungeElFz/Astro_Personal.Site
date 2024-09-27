@@ -58,7 +58,7 @@ Eye movements act as the cursor, and pinching your fingers serves as a click.
 
 <Image
   src="https://about.fb.com/wp-content/uploads/2024/09/01_Why-AR-Glasses_Carousel-01.gif?fit=640%2C557"
-  class="rounded-2xl shadow-2xl"
+  class="rounded-2xl shadow-2xl w-full"
 />
 
 ---
