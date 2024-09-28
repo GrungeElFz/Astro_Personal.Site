@@ -157,3 +157,31 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
   allowfullscreen></iframe>
 
 > Cleo Abram's interview with Mark Zuckerberg as they dive into the world of Orion and its possibilities.
+
+---
+
+<!-- Mobile Version -->
+<iframe
+  title="Why Mark Zuckerberg thinks AR glasses will replace your phone" 
+  src="https://www.youtube.com/embed/8dVba_xm4MQ?si=eoUmGKuiGGK3pJLk"
+  class="sm:hidden"
+  width="100%"
+  height="285" 
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
+<!-- Non-Mobile Version -->
+<iframe
+  title="Why Mark Zuckerberg thinks AR glasses will replace your phone" 
+  src="https://www.youtube.com/embed/8dVba_xm4MQ?si=eoUmGKuiGGK3pJLk"
+  class="sm:inline hidden"
+  width="100%"
+  height="515" 
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
+> Alex Heath with Mark Zuckerberg's discussions on Meta’s new Orion AR glasses, the company’s partnership with Ray-Ban for more smartglasses products, and much more.
