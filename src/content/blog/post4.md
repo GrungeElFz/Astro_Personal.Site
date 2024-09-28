@@ -86,7 +86,7 @@ Imagine conversing with someone in another language, and seeing their words inst
 
 ## Not Just Another Prototype
 
-Meta took a significant stride towards its augmented reality ambitions at Connect 2024, unveiling Orion, its most advanced AR glasses prototype to date. While still in development, Orion represents a tangible step towards the company's vision of consumer-ready AR glasses in the near future.
+Meta took a significant stride towards its augmented reality ambitions at <a href="https://www.meta.com/connect" target="_blank">Connect 2024</a>, unveiling Orion, its most advanced AR glasses prototype to date. While still in development, Orion represents a tangible step towards the company's vision of consumer-ready AR glasses in the near future.
 
 Starting today, Meta is granting access to the Orion prototype to its employees and select external partners. This crucial ongoing development and feedback loop will help the development team refine the product further, focusing on three key areas:
 
