@@ -106,6 +106,34 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
 
 <!-- Mobile Version -->
 <iframe
+  title="Connect Keynote 2024" 
+  src="https://www.youtube.com/embed/I7JyydkqDeI?si=dMFqarfyr_1eFRt5"
+  class="sm:hidden"
+  width="100%"
+  height="285"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
+<!-- Non-Mobile Version -->
+<iframe
+  title="Connect Keynote 2024" 
+  src="https://www.youtube.com/embed/I7JyydkqDeI?si=dMFqarfyr_1eFRt5"
+  class="sm:inline hidden"
+  width="100%"
+  height="515"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
+
+> The latest developments in mixed reality, AI and wearables. Hear how Meta is building towards the next computing platforms and get a first look at new products and features that will deliver the future of human connection.
+
+---
+
+<!-- Mobile Version -->
+<iframe
   title="Hands-On: Meta Orion Augmented Reality Glasses!" 
   src="https://www.youtube.com/embed/ynLm-QvsW0Q?si=hXH0ZdyN5JPKwhQl"
   class="sm:hidden"
