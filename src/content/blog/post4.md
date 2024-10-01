@@ -65,7 +65,9 @@ The wristband currently recognizes a range of gestures:
 
 ![](https://i.insider.com/66f42cc3d17aa3c7b2b5e91b?width=800&format=jpeg&auto=webp)
 
-Eye movements act as the cursor, and pinching your fingers serves as a click.
+It's an incredibly intuitive system - your eyes guide, your fingers act. This natural mapping of actions, coupled with near-instantaneous feedback from the neural interface, gives the connections between the physical and digital worlds.
+
+It's not just about convenience, it's about feeling like you're directly manipulating the digital elements within your own reality, creating a truly immersive AR experience.
 
 <div class="relative overflow-hidden">
   <Image
@@ -73,6 +75,8 @@ Eye movements act as the cursor, and pinching your fingers serves as a click.
     class="w-full scale-125"
   />
 </div>
+
+This is just the first step towards a future where the boundaries between the physical and digital worlds dissolve. Meta's ambition is to create an AR experience so seamless, so intuitive, that it feels like a natural extension of our own reality. In this mixed reality, information, entertainment, and connection will flow effortlessly around us.
 
 ---
 
