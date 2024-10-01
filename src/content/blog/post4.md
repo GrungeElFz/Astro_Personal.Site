@@ -18,13 +18,20 @@ They're betting big on augmented reality (AR) glasses to lead the charge for the
 
 ## The impossible is possible
 
-On September 25, 2024, Meta officially introduced the first fully functional prototype of its AR glasses - Meta Orion. The consensus is that these are the most advanced AR glasses ever created.
+On September 25, 2024, Meta shattered expectations by introducing the first fully functional prototype of its AR glasses - Meta Orion. The consensus? These aren't just another step forward; they're the most advanced AR glasses ever created.
+
+![](https://i.insider.com/66f45ec2de59ade1a3b4994c)
+
+This cutting-edge implementation is a testament to Meta's relentless pursuit of innovation in both augmented reality and virtual reality, as creating such a device was once considered nearly impossible with this current technological stage.
+
+<Image
+  src="https://s.yimg.com/ny/api/res/1.2/54sDCNKDW5rUJwZ7GunxNA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEzNjA7aD05MDY7Y2Y9d2VicA--/https://media.zenfs.com/en/techcrunch_350/ce5d2f89cc1c146267cddfae47fe057c"
+  class="w-full"
+/>
 
 > " It was so challenging that we thought we had less than a 10% chance of pulling it off successfully. Until now. "
 >
 > -- Andrew Bosworth, Meta's Chief Technology Officer
-
-![](https://i.insider.com/66f45ec2de59ade1a3b4994c)
 
 ---
 
