@@ -152,7 +152,7 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
-> The latest developments in mixed reality, AI and wearables. Hear how Meta is building towards the next computing platforms and get a first look at new products and features that will deliver the future of human connection.
+> This keynote offers a comprehensive overview of Meta's vision for the future of mixed reality, AI, and wearables. Get a first look at new products and features, including Orion, and hear how Meta is building the next computing platforms.
 
 ---
 
@@ -180,7 +180,7 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
-> Get a firsthand look at Orion in action with Norman Chan and Meta's CTO, Andrew Bosworth.
+> Join Norman Chan and Meta's CTO, Andrew Bosworth, for a hands-on demonstration of Orion. Get a firsthand look at how the glasses work and the exciting possibilities they offer.
 
 ---
 
@@ -208,7 +208,7 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
-> Cleo Abram's interview with Mark Zuckerberg as they dive into the world of Orion and its possibilities.
+> In this interview, Cleo Abram sits down with Mark Zuckerberg to discuss Orion and its potential to revolutionize how we interact with technology and the world around us.
 
 ---
 
@@ -236,4 +236,4 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
-> Alex Heath with Mark Zuckerberg's discussions on Meta’s new Orion AR glasses, the company’s partnership with Ray-Ban for more smartglasses products, and much more.
+> Alex Heath delves deeper into Meta’s vision for AR glasses with Mark Zuckerberg, exploring topics such as the company's partnership with Ray-Ban and the challenges of developing consumer-ready AR devices.
