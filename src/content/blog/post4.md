@@ -16,7 +16,7 @@ They're betting big on augmented reality (AR) glasses to lead the charge for the
 
 ---
 
-## The impossible is possible
+## The Impossible is Possible
 
 On September 25, 2024, Meta shattered expectations by introducing the first fully functional prototype of its AR glasses - Meta Orion. The consensus? These aren't just another step forward; they're the most advanced AR glasses ever created.
 
