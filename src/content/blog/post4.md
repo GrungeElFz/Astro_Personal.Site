@@ -107,19 +107,22 @@ What other ways can you imagine an AI assistant enhancing your everyday life in 
 
 ## Not Just Another Prototype
 
-Meta took a significant stride towards its augmented reality ambitions at <a href="https://www.meta.com/connect" target="_blank">Connect 2024</a>, unveiling Orion, its most advanced AR glasses prototype to date. While still in development, Orion represents a tangible step towards the company's vision of consumer-ready AR glasses in the near future.
+Meta's unveiling of Orion at <a href="https://www.meta.com/connect" target="_blank">Connect 2024</a> was more than just a glimpse into the future; it marked a significant milestone in the company's journey toward AR glasses.
 
-Starting today, Meta is granting access to the Orion prototype to its employees and select external partners. This crucial ongoing development and feedback loop will help the development team refine the product further, focusing on three key areas:
+Starting today, Meta is granting access to the Orion prototype to its employees and select external partners. This crucial ongoing development and feedback loop will allow Meta to gather real-world feedback and refine the technology further, focusing on three key areas:
 
 - **Display Quality**: Increasing the resolution and enhancing the overall AR experience.
 - **Form Factor**: Optimizing the design for a greater comfort and everyday wearability
 - **Affordability**: Scaling production to achieve a consumer-friendly price point.
 
+<Image
+  src="https://s.yimg.com/ny/api/res/1.2/C1bXFxG5CEkCRRZbaT0RVw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/bloomberg_technology_68/356a8c9474812ebf837fc0512157aabf"
+  class="w-full"
+/>
+
 > " Orion isn’t just a window into the future – it’s a look at the very real possibilities within reach today. "
 >
 > -- Meta
-
-![](https://s.yimg.com/ny/api/res/1.2/C1bXFxG5CEkCRRZbaT0RVw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/bloomberg_technology_68/356a8c9474812ebf837fc0512157aabf)
 
 ---
 
