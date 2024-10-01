@@ -3,7 +3,6 @@ title: "Tesla's Optimus Bot : Custom-Built Actuators"
 description: "Actuators in robotics with its glimpse of the future."
 pubDate: "July 30 2023"
 heroImage: "https://imageio.forbes.com/specials-images/imageserve/633885ad873cb08a2c57e040/tesla-bot/960x0.jpg"
-badge: "NEW"
 ---
 
 _" A general purpose, bi-pedal, autonomous humanoid robot capable of performing unsafe, repetitive, and boring tasks. "_
