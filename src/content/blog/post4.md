@@ -126,6 +126,18 @@ Starting today, Meta is granting access to the Orion prototype to its employees 
 
 ---
 
+## Beyond the Horizon
+
+![](https://s3-alpha.figma.com/hub/file/5388452724/888ad143-5a02-49cc-8642-f94240b67589-cover.png)
+
+Meta's Orion is undoubtedly a glimpse into the future of augmented reality. While still in its early stages, the advancements showcased in the videos above paint a vivid picture of a world where the digital and physical seamlessly blend. This promises to enhance our lives in ways we're only beginning to imagine.
+
+The road to consumer-ready AR glasses may be long, but with Orion, Meta has taken a giant leap forward.
+
+It will be exciting to see how this technology evolves and shapes the future of human-computer interaction.
+
+---
+
 ### Watch: Meta's Orion in Action & Zuckerberg's Vision
 
 <!-- Mobile Version -->
