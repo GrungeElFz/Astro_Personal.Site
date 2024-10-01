@@ -37,13 +37,15 @@ This cutting-edge implementation is a testament to Meta's relentless pursuit of 
 
 ## Seeing is Believing
 
-At its core, Orion is simply a miniaturized computer designed to be worn on your face. The perennial challenge with such devices has been their displays, which often suffer from being bulky, generating excessive heat, offering poor resolution, or providing a limited field of view.
+AR is about effortlessly merging the digital with the physical, creating an experience that's as informative as it is amazing. Picture yourself walking through a museum, with historical facts and interactive displays appearing right beside the exhibits, exploring a new city with directions and points of interest guiding you effortlessly through the streets, or just simply seeing step-by-step repair instructions overlaid on a broken appliance.
+
+But bringing this vision to life hasn't been easy. The perennial challenge with such devices has been their displays. These often suffer from issues like bulkiness, excessive heat generation, poor resolution, or a limited field of view.
 
 ![](<https://duet-cdn.vox-cdn.com/thumbor/0x0:2700x1800/1440x960/filters:focal(1350x900:1351x901):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25637093/247284_Project_Orion_VPavic_0337.jpg>)
 
 Orion's display represents a significant leap forward in AR technology. Meta has custom-engineered a unique type of display system with Micro LED projectors embedded in the frame, beaming lights into nano-etched waveguides within the lenses. These lenses are made with silicon carbide, which one of the properties is an ultrahigh index of refraction, enabling the projected light to fill a greater portion of your vision.
 
-Essentially, it's a hologram.
+It's not quite magic, but it's close. The result is a holographic-like effect, where digital information appears to float seamlessly in your real-world surroundings.
 
 ![](https://www.yankodesign.com/images/design_news/2024/09/metas-futuristic-orion-ar-glasses-have-holographic-displays-and-neural-control-apple-should-take-notes/meta_orion_ar_glasses_7.jpg)
 
