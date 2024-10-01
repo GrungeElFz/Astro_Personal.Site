@@ -82,9 +82,9 @@ This is just the first step towards a future where the boundaries between the ph
 
 ## Assistant on Mixed Reality
 
-With Meta AI seamlessly integrated into Orion, you'll have a smart assistant that understands your environment and layers helpful visualizations on top of your physical world.
+With Meta AI seamlessly integrated, Orion becomes more than just AR glasses – it's a smart assistant that understands your surroundings and enhances them with helpful digital overlays.
 
-Imagine walking into your kitchen and asking for a creative recipe based on the ingredients you already have on hand. Orion will then overlay suggestions and instructions right onto your countertops, transforming cooking into an interactive experience.
+Need a recipe idea? Ask Orion, and watch as suggestions and instructions based of what you already have in the kitchen appear right on your kitchen counter, turning your everyday cooking into a culinary adventure.
 
 <div class="relative overflow-hidden">
   <Image
@@ -93,9 +93,15 @@ Imagine walking into your kitchen and asking for a creative recipe based on the 
   />
 </div>
 
-Imagine conversing with someone in another language, and seeing their words instantly translated into subtitles layered directly onto their surroundings, allow you to focus on their expressions, their gestures, and the shared human experience.
+Engaged in a conversation with someone speaking a different language? Watch as their words transform into subtitles, floating effortlessly beside them. No more awkward pauses or misunderstandings, just the joy of genuine human connection.
 
 ![](https://www.zdnet.com/a/img/resize/183b38573ea4cabb8eb92ebc5bb135a502b0197a/2023/05/11/0b3f8170-2af0-4e35-8015-ef8757dd6950/google-translation-glasses.jpg?auto=webp&fit=crop&height=675&width=1200)
+
+The possibilities extend far beyond these examples. Imagine a future where students dissect virtual frogs with interactive, labeled organs right on their desks. Architects could stroll through their designs at scale, making real-time adjustments before construction even begins.
+
+![](https://www.digitalconstructionweek.com/wp-content/uploads/2021/11/XYZ-Reality_The-Atom-3-scaled.jpg)
+
+What other ways can you imagine an AI assistant enhancing your everyday life in mixed reality? The possibilities are truly endless.
 
 ---
 
