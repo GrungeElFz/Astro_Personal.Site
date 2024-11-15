@@ -15,6 +15,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
           data-tip="Download my resume here 👀"
           aria-label="Resume"
           title="Resume"
+          onclick="document.getElementById('resume-message').innerText = 'Thank you for checking my resume! &nbsp; 🥺👌 ❤️';"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -354,7 +355,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       </div>
     </div>
     <div class="chat-bubble chat-bubble-primary flex justify-between">
-      <span>Click the ( 📄 ) Profile icon to download my resume!</span>
+      <span id="resume-message">Click the ( 📄 ) Profile icon to download my resume!</span>
       <button
         onclick="document.getElementById('resume-bubble').remove()"
         class="font-thin text-gray-300 hover:text-gray-400 focus:outline-none self-center"
