@@ -347,14 +347,19 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     </ul>
   </div>
 
-  <div class="chat chat-end fixed bottom-5 right-5 z-50">
+  <div id="resume-bubble" class="chat chat-end fixed bottom-5 right-5 z-50">
     <div class="chat-image avatar">
       <div class="w-10 rounded-full">
         <img src="profile.jpg" alt="Resume download bubble message" />
       </div>
     </div>
-    <div class="chat-bubble chat-bubble-primary">
-      Click at the Profile icon to download my resume!
+    <div class="chat-bubble chat-bubble-primary flex justify-between">
+      <span>Click the Profile icon to download my resume!</span>
+      <button
+        onclick="document.getElementById('resume-bubble').remove()"
+        class="font-thin text-gray-300 hover:text-gray-400 focus:outline-none self-center"
+        aria-label="Close the bubble">✕</button
+      >
     </div>
   </div>
 </BaseLayout>
