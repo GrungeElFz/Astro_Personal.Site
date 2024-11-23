@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gee-astro-personal.vercel.app/
+Sitemap: https://gdelviora.vercel.app/
