@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gee-astro-personal.vercel.app/",
+  site: "https://gdelviora.vercel.app/",
   integrations: [
     mdx(),
     sitemap(),
