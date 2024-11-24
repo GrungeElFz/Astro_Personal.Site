@@ -1,0 +1,12 @@
+<svg fill="#ffffff" height="184px" width="184px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-1.6 -1.6 19.20 19.20" stroke="#ffffff" stroke-width="0.48">
+
+  <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0.7999999999999998,0.7999999999999998), scale(0.9)">
+    <rect x="-1.6" y="-1.6" width="19.20" height="19.20" rx="0" fill="#000000" strokewidth="0"></rect>
+  </g>
+  
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#32675c" stroke-width="0.128"></g>
+  
+  <g id="SVGRepo_iconCarrier">
+    <path class="cls-1" d="M6.5,11A1.5,1.5,0,1,1,5,9.5,1.5,1.5,0,0,1,6.5,11ZM5,3.5A1.5,1.5,0,1,0,6.5,5,1.5,1.5,0,0,0,5,3.5ZM12.5,11A1.5,1.5,0,1,1,11,9.5,1.5,1.5,0,0,1,12.5,11ZM11,3.5A1.5,1.5,0,1,0,12.5,5,1.5,1.5,0,0,0,11,3.5Z"></path>
+  </g>
+</svg>
