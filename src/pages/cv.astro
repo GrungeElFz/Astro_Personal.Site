@@ -15,7 +15,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
           data-tip="Download my resume here 👀"
           aria-label="Resume"
           title="Resume"
-          onclick="document.getElementById('resume-message').innerText = 'Thank you for checking my resume! &nbsp; 🥺👌 ❤️';"
+          onclick="document.getElementById('resume-message').innerText = 'Thank you for checking my resume!   🥺👌 ❤️';"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -71,8 +71,8 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <p class="text-md py-3">
       Proficient in utilizing a wide range of frameworks and libraries, such as
       SvelteKit, Astro, and TailwindCSS. Actively experimenting in cutting-edge
-      tools such as Warp Terminal, Cursor IDE, and a multi-tool like Bun for enhanced
-      development efficiency.
+      tools such as Warp Terminal, Cursor IDE, and a multi-tool like Bun for
+      enhanced development efficiency.
     </p>
 
     <p class="text-md py-3">
@@ -355,7 +355,9 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       </div>
     </div>
     <div class="chat-bubble chat-bubble-primary flex justify-between">
-      <span id="resume-message">Click the ( 📄 ) Profile icon to download my resume!</span>
+      <span id="resume-message"
+        >Click the ( 📄 ) Profile icon to download my resume!</span
+      >
       <button
         onclick="document.getElementById('resume-bubble').remove()"
         class="font-thin text-gray-300 hover:text-gray-400 focus:outline-none self-center"
