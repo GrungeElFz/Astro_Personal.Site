@@ -6,7 +6,7 @@ A _minimal_ • _personal_ • _digital space_ to showcase my works with Project
 
 ## Demo
 
-View a live demo of the [Gee's Personal Website](https://gee-astro-personal.vercel.app/)
+View a live demo of the [Gee's Personal Website](https://gdelviora.vercel.app/)
 
 ## Installation
 
