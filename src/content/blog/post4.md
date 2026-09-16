@@ -2,7 +2,7 @@
 title: "Meta's Orion: Glimpsing the Future of Mixed Reality"
 description: "The prototype that is setting the foundation of tomorrow's reality."
 pubDate: "September 26, 2024"
-heroImage: "https://www.androidheadlines.com/wp-content/uploads/2024/09/Meta-Orion-AR-Glasses.webp"
+heroImage: "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/626532461_18189889576348289_2377827018545284647_n.webp?_nc_cat=107&ig_cache_key=MzQ2NTA2NjMzNDE1MTgzMzIwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XQM5tbhUEpIQ7kNvwElBFj_&_nc_oc=Adq21TIygbiEUOMGcMEY_uQNz2iTmDdHVJeYzvi1a19xvvo7ExQBAyxbVvghGeM1WQ9swE4piP1fpCusyJCT6Hs8&_nc_ad=z-m&_nc_cid=1087&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_gid=eAcH9L7H-a3eL06uyhZdcA&_nc_ss=7a22e&oh=00_AQJCemzNwV5BUHfENbNkp5rTokkgFopHt1KRXW81K0LU1w&oe=6AAFEE88"
 badge: "NEW"
 ---
 
